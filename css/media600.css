@@ -1,0 +1,17 @@
+@media (max-width:600px){
+
+    .img-text1{
+     
+        width: 90%;
+        margin: 2px 25px;
+    font-size: 2rem;
+    
+    }
+    .img-text1 p{
+        font-size: 1.5rem;
+        width: 80%;
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+}

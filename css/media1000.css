@@ -1,0 +1,58 @@
+@media screen and (max-width:1000px){
+
+     .humber-menu{
+        display: block;
+     }
+
+     .menu{
+        
+        position: absolute;
+        top: 0;
+        left: -100%;
+        
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(196, 190, 190);
+        transition: 0.5s;
+        padding: 10px;
+     }
+     .show-menu{
+        left: 0;
+        display: block;
+        z-index: 99;
+        margin: 0 ;
+     }
+     .list-menu{
+        margin: 10px 15px;
+        padding: 10px 0;
+     }
+     .close{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        
+     }
+
+
+
+     .card-box{
+      width: 50%;
+     }
+     
+
+
+     .menu-card{
+      width: 100%;
+      
+      margin: 10px 0;
+       justify-content: center;
+  }
+
+
+
+
+}
